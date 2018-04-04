@@ -1,0 +1,289 @@
+IMG {
+  height: auto;
+  max-width: 100%;
+  align: center;
+}
+
+#banner {
+  color: #fff;
+  text-align: center;
+  background: #fff url("http://kingofwallpapers.com/nebula/nebula-019.jpg") center 0 no-repeat;
+  background-size: cover;
+  padding: 1em 0
+}
+
+#banner h1 {
+  padding: 20% 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table, th, td {
+   border: 1px solid black;
+   background: #D6EAF8;
+   color: #21618C;
+   position: center;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+H1{
+  align: right;
+  height: auto;
+   width: auto;
+   max-width: 100px;
+   max-height: 100px;
+   color: #fff;
+}
+
+H2 {
+    text-align: center;
+    color: #fff;
+}
+
+h3{
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 0 1em 0;
+}
+
+
+
+h5{
+  text-align: left;
+  color: #fff;
+  font-family: arial;
+  background-color: #154360;
+  font-size: 15px;
+
+}
+
+
+  body {
+    margin: 0;
+      align: center;
+      Background: #000;
+      padding:  0 5em 0 5em
+    background-image: url("images/Map-min.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  hr {
+     display: block;
+     position: relative;
+     padding: 0;
+     margin: 8px auto;
+     height: 0;
+     width: 100%;
+     max-height: 0;
+     font-size: 1px;
+     line-height: 0;
+     clear: both;
+     border: none;
+     border-top: 1px solid #aaaaaa;
+     border-bottom: 1px solid #ffffff;
+  }
+
+  footer {
+    font-size: 1vw;
+    font-weight: lighter;
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+  details {
+    margin: 1em 0;
+    }
+
+    .max-width {
+      max-width: 58em;
+      padding: 0 1em;
+      margin: 0 auto;
+    }
+
+    .marker--after summary:after {
+      visibility: visible;
+      display: inline-block;
+      content: "[show]";
+      font-family: monospace;
+      color: #999;
+      margin-left: -.8em;
+      }
+
+    .marker--after[open] summary:after {
+      content: "[hide]";
+      }
+
+    .marker--after summary:hover:after,
+    .marker--after summary:focus:after {
+      color: #000;
+      }
+
+    /* add marker before / faux replacement marker */
+
+    .marker--before summary:before {
+      visibility: visible;
+      float: left;
+      position: relative;
+      top: .11em;
+      content: "";
+      font-family: monospace;
+      padding-bottom: 3px;
+      padding-left: 1.5em;
+      border-top: 9px double #999;
+      border-bottom: 3px solid #999;
+      margin-right: .5em;
+      }
+
+    .marker--before summary:hover:before,
+    .marker--before summary:focus:before {
+      border-color: #000;
+      }
+
+    .marker-hide .details-content {
+      clear: both; /* clear float (summary) */
+      }
+
+  .group {
+    overflow: hidden; /* clear floats and hide extra magic height (see below) */
+  }
+
+  .principle {
+    font-family: sans-serif;
+    padding-bottom: 25em; /* magic height, add up to 10em of extra height */
+    margin-bottom:  -25em; /* magic height, adjust height to match uneven height */
+    align: center;
+  }
+
+  .principle .padding {
+    padding: 1em;
+      align: center;
+  }
+
+  .principle h2 {
+    margin-top: 0;
+    align: center;
+  }
+
+  .principle p {
+    margin-bottom: 0;
+      align: center;
+  }
+
+  #principle-1 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #3e2a96,
+   #ba91e2
+ );
+      align: center;
+  }
+
+  #principle-1 img {
+    align: center;
+  }
+
+  #principle-2 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #440c16,
+   #9b606c
+ );
+      align: center;
+  }
+
+  #principle-3 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #070A45,
+   #6d74ff
+ );
+      align: center;
+  }
+
+  #principle-4 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #4dc3ea,
+   #2f1272
+ );
+      align: center;
+  }
+
+  #principle-5 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #9348B6,
+   #dba0f7
+ );
+      align: center;
+  }
+
+  #principle-6 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #540C76,
+   #ba43f2
+ );
+      align: center;
+  }
+
+  #principle-7 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #e033b8,
+   #7c1272
+ );
+      align: center;
+  }
+
+  #principle-8 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #7c116f,
+   #e26fa3
+ );
+      align: center;
+  }
+
+  #principle-9 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #60749b,
+   #3b67bf
+ );
+      align: center;
+  }
+
+  #principle-10 {
+    background:
+    radial-gradient(
+   circle at 0 0,
+   #735b82,
+   #6b2399
+ );
+      align: center;
+  }
+
+  @media (min-width: 48em) {
+
+    .principle {
+      float: left;
+      width: 50%;
+    }
+
+  }
